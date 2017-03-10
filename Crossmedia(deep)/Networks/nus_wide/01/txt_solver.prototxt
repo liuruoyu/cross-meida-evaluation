@@ -1,0 +1,26 @@
+# The train/test net protocol buffer definition
+net: "/home/ruoyu/Crossmedia(deep)/Networks/nus_wide/01/txt_train_test.prototxt"
+# test_iter specifies how many forward passes the test should carry out.
+test_iter: 99
+# Carry out testing every 500 training iterations.
+test_interval: 99
+# The base learning rate, momentum and the weight decay of the network.
+base_lr: 1
+momentum: 0.9
+weight_decay: 0.0005
+# The learning rate policy
+# lr_policy: "inv"
+# gamma: 0.0001
+# power: 0.75
+lr_policy: "step"
+gamma: 0.1
+stepsize: 1980
+# Display every 100 iterations
+display: 99
+# The maximum number of iterations
+max_iter: 5940
+# snapshot intermediate results
+snapshot: 5940
+snapshot_prefix: "/home/ruoyu/Crossmedia(deep)/Models/nus_wide/txt_network_1"
+# solver mode: CPU or GPU
+solver_mode: GPU
