@@ -22,7 +22,7 @@ You can directly run the three script files in "crossmedia" to view the results 
 ```
 
 ## Train the Deep Models
-To train the deep models tested in our paper. You need to download the data of the three benchmark datasets from [here](http://pan.baidu.com/s/1pLBCTK3) (password: *ja9t*), unzip the file and put the inside folders into "Benchmarks". Then, you need to download the pre-trained CaffeNet and the image mean value file from [here](http://pan.baidu.com/s/1i5yrX5b) (password: *8krs*). Unzip the file and the put the inside two files into "Crossmedia(deep)".
+To train the deep models tested in our paper. You need to download the data of the three benchmark datasets from [here](https://pan.baidu.com/s/1dELQ8O5) (password: *ivms*), unzip the file and put the inside folders into "Benchmarks". Then, you need to download the pre-trained CaffeNet and the image mean value file from [here](http://pan.baidu.com/s/1i5yrX5b) (password: *8krs*). Unzip the file and the put the inside two files into "Crossmedia(deep)".
 
 Modify the data path variables of the script files in "Crossmedia(deep)/Codes", then run these files to generate the training data.
 
